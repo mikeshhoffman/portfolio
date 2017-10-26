@@ -1,8 +1,11 @@
 body {
+  font-family: "Times New Roman", Times, serif; 
+  color: black;
   background: -webkit-linear-gradient(#E85C15, #FFA500); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#E85C15, #FFA500); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#E85C15, #FFA500); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#E85C15, #FFA500); /* Standard syntax (must be last) */
+  padding:0px 20px;
   height:100%;
   overflow:hidden;
 } 
@@ -11,13 +14,21 @@ header h1 {
   color: purple;
 }
 
+/* Navigation section(s) */
 nav {
-  background-color: bisque;
+  border-style: dashed;
+  border-color: crimson;
+  border-width: thin;
 }
 
-/* H1 headlines change color on hover*/
+/* h1's change color on hover*/
 h1:hover {
   color: red;
+}
+
+/* h2's change color on hover*/
+h2:hover {
+  color: black;
 }
 
 /* Visited links do not have underlines*/
@@ -25,54 +36,54 @@ a:visited {
   text-decoration: none;
 }
 
-/* Header is wider than article, both centered*/
+/* Header section is wider than Article section, and is centered */
 header {
   width: 75%;
-  margin:auto;
-  background-color: black;
-  color: white;
+  margin: auto;
+  color: darkred;
 }
 
+/* Article section is narrower than Article section, and is centered */
 article {
   width: 50%
-  margin:auto;
-  background-color: blanchedalmond;
-  color: DarkGreen;
+  margin: auto;
+  color: darkgreen;
 }
 
-/* First letter of link text is bigger - has to be block not inline, doesn't work */
-a::first-letter {
-  font-size:3em;
-}
-
-/* Footer has a border*/
+/* footer has a border*/
 footer {
-  border: 1px solid red; /* borders have 3 values: how thick, linetype, color.  Shorthand. */
-  border-radius: 25px;      /* Make corners of border curved*/
+  border: 1px solid red; /* shorthand for the 3 border attributes: thickness, line type, color */
+  border-radius: 10px;   /* make corners of border curved */
 }
 
-#main {
-  color: gray;
-}
-
+/* yellow highlighter for use with <span class="highlight"> */
 .highlight {
-  color: yellow;
+  background-color: yellow;
 }
 
+/* in Aside section, make font green */
 aside p {
   background-color: green;
 }
 
-a {
-  text-decoration: line-through;
-}
-
+/* magnify link when hover */
 nav a:hover {
   text-decoration: underline;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
+/* magnify first letter of paragraph */
 p::first-letter {
   font-size:2em;
   color:firebrick;
+}
+
+/* attempt to stretch link text */
+a {
+  font-stretch: extra-expanded;
+}
+
+/* not used, but could use for <myElem id="main"> */
+#main {
+  color: gray;
 }
