@@ -37,7 +37,7 @@ article {
   width: 50%
   margin:auto;
   background-color: blanchedalmond;
-  color: white;
+  color: DarkGreen;
 }
 
 /* First letter of link text is bigger - has to be block not inline, doesn't work */
