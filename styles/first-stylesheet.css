@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Times New Roman", Times, serif; 
   color: black;
@@ -45,7 +49,7 @@ header {
 
 /* Article section is narrower than Article section, and is centered */
 article {
-  width: 50%
+  width: 50%;
   margin: auto;
   color: darkgreen;
 }
