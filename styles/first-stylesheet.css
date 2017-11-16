@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  font-family: "Times New Roman", Times, serif; 
+  font-family: 'Zilla Slab', "Times New Roman", Times, serif; 
   color: black;
-  background: -webkit-linear-gradient(#E85C15, #FFA500); /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(#FFA500, #E85C15); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#E85C15, #FFA500); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#E85C15, #FFA500); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#E85C15, #FFA500); /* Standard syntax (must be last) */
@@ -19,11 +19,13 @@ header h1 {
 }
 
 /* Navigation section(s) */
+/*
 nav {
   border-style: dashed;
   border-color: crimson;
   border-width: thin;
 }
+*/
 
 /* h1's change color on hover*/
 h1:hover {
@@ -58,6 +60,15 @@ article {
 footer {
   border: 1px solid red; /* shorthand for the 3 border attributes: thickness, line type, color */
   border-radius: 10px;   /* make corners of border curved */
+}
+
+footer nav {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  padding-left: 1rem;
 }
 
 /* yellow highlighter for use with <span class="highlight"> */
