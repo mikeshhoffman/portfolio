@@ -62,6 +62,12 @@ footer {
   border-radius: 10px;   /* make corners of border curved */
 }
 
+header nav {
+  border: 1px solid red; /* shorthand for the 3 border attributes: thickness, line type, color */
+  border-radius: 10px;   /* make corners of border curved */
+  padding: 1rem;
+}
+
 footer nav {
   padding-left: 1rem;
   padding-bottom: 1rem;
